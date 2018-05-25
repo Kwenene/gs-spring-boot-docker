@@ -1,4 +1,6 @@
 FROM openjdk:8-jdk-alpine
+MAINTAINER Thembela Kwenene <thembela@kineticskunk.com>
+
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
